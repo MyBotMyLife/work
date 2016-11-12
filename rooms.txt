@@ -1,4 +1,3 @@
-isabelachat
 lestbot
 androh-chat
 anibatch
