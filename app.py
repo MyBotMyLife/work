@@ -482,7 +482,7 @@ class TestBot(ch.RoomManager):
           room.message("volte logo "+sntonick(user.name)+"-sama", True)
          
     ##Commands | You design great commands for your bot in this part
-    if message.body[0] == "+" or message.body[0] == "-" or message.body[0] == "|" : #prefix usage in this line (for this case I use "*" as prefix)
+      if message.body[0] == "=" or if message.body[0] == "<" or if message.body[0] == "+" or message.body[0] == "-" or message.body[0] == "|" : #prefix usage in this line (for this case I use "*" as prefix)
         data = message.body[1:].split(" ", 1) #This part splits message body into [0]prefix and [1:]data ([1:] <- this means the message body's second character and after) and data will be split into 2 (cmd(data[0]), args(data[1])) which is very usefull. (Many thanks to TryHardHusky)
         if len(data) == 2: #If there are more than 1 data (This is where we will get args)
           cmd, args = data[0], data[1] #the first data (data[0]) will be the cmd (specified command) and the next data will be args (it doesn't matter how many word next to the cmd, It'd eventually be args)
