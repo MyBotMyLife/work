@@ -1725,11 +1725,9 @@ class TestBot(ch.RoomManager):
 #    room.message(user.name+" has left the room.")
 
   def onFloodWarning(self, room):
+    time.sleep(2)
     room.reconnect()
-    room.setSilent(True)
-    self.setTimeout(15, room.setSilent, False)
-    self.setTimeout(16, room.message, "I'm back.")
-    print("[+] Reconnecting...")
+
 
   def onMessageDelete(self, room, user, msg):
     print("MESSAGE DELETED: " + user.name + ": " + msg.body)
