@@ -1,0 +1,35 @@
+{
+  "0" : [],
+  "1" : [
+    "rank",
+    "say",
+    "owner",
+    "staff",
+    "dev",
+    "pic",
+    "cmds",
+    "commands",
+    "cmd",
+    "youtube",
+    "setrank"
+  ],
+  "2" : [
+    "rank",
+    "say",
+    "owner",
+    "staff",
+    "dev",
+    "pic",
+    "cmds",
+    "commands",
+    "cmd",
+    "youtube",
+    "pm",
+    "rooms",
+    "join",
+    "leave",
+    "whois",
+    "ban",
+    "unban"
+  ]
+}

@@ -1,0 +1,5 @@
+["lsabela", "<f x12FF0000='0'> <f x12FF5F00='0'>I<f x12FFBE00='0'>s<f x12A0FF00='0'>a<f x1241FF00='0'>b<f x1200FF5F='0'>e<f x1200FFBE='0'>l<f x1200A0FF='0'>a *h*"]
+["vissle", "<b><u>Viss-chan</u></b>"]
+["nosoba", "<f x22db7093=\"kalinga\">Y<f x22d17494=\"kalinga\">u<f x22c57996=\"kalinga\">z<f x22ba7d97=\"kalinga\">u<f x22af8198=\"kalinga\">k<f x22a38599=\"kalinga\">i"]
+["hansubaruukun", "Han&#39;s"]
+["rasterkun", "Rasterkun"]
